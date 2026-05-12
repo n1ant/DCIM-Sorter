@@ -1,15 +1,15 @@
-# DCIM Sorter
+<h1 align="center">DCIM Sorter</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x%20(разработка%20на%203.13)-blue" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue" />
   <img src="https://img.shields.io/badge/GUI-Tkinter-green" />
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" />
   <img src="https://img.shields.io/badge/Status-Stable-success" />
 </p>
 
----
+<br>
 
-## Описание
+<h2 align="center">Описание</h2>
 
 **DCIM Sorter** — десктопное приложение на Python для автоматической сортировки фотографий и видео по дате съёмки.
 
@@ -19,9 +19,9 @@
 - по имени файла (если содержит шаблон даты)
 - по дате изменения файла (fallback)
 
----
+<br>
 
-## Основные возможности
+<h2 align="center">Основные возможности</h2>
 
 ### Интерфейс
 - Графический интерфейс на **Tkinter**
@@ -45,9 +45,9 @@
 - Перенос неподдерживаемых файлов в `_unsorted`
 - Обработка ошибок без прерывания выполнения
 
----
+<br>
 
-## Запуск
+<h2 align="center">Запуск</h2>
 
 ### Основной запуск
 
@@ -66,9 +66,9 @@
 python main.py
 ```
 
----
+<br>
 
-## Тестирование
+<h2 align="center">Тестирование</h2>
 
 Для запуска тестов используйте:
 
@@ -79,44 +79,49 @@ python main.py
 - обработку файлов
 - вспомогательные функции
 
----
+<br>
 
-## Скриншоты
+<h2 align="center">Скриншоты</h2>
 
-![Главное окно](screenshots/main.png)
+<p align="center">
+  <img src="screenshots/main.png" width="50%" alt="Главное окно" />
+</p>
 
-![Настройки](screenshots/settings.png)
+<p align="center">
+  <img src="screenshots/settings.png" width="35%" alt="Настройки" />
+</p>
 
-![Прогресс](screenshots/progress.png)
+<p align="center">
+  <img src="screenshots/progress.png" width="35%" alt="Прогресс" />
+</p>
 
----
+<br>
 
-## Результат работы
+<h2 align="center">Результат работы</h2>
 
 После выполнения:
 - файлы распределяются по каталогам в соответствии с датой
 - неподдерживаемые файлы помещаются в `_unsorted`
 - отображается статистика обработки
 
----
+<br>
 
-## Примечания
+<h2 align="center">Примечания</h2>
 
-- Разработка велась на Python 3.13
-- Программа совместима с Python 3.x (при наличии стандартных библиотек)
+- Программа совместима с Python 3.x
 - Кроссплатформенная логика с упрощённым запуском под Windows
+- Используются только стандартные библиотеки Python
 
----
+<br>
 
-## Авторство
+<h2 align="center">Авторство</h2>
 
 Проект выполнен в рамках учебной лабораторной работы.
 
 Разработка осуществлена с использованием инструментов искусственного интеллекта.
 
----
+<br>
 
 <p align="center">
   <b>DCIM Sorter</b>
 </p>
-
